@@ -1,0 +1,248 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+   font-family: TimesNewRoman;
+    background: linear-gradient(to bottom, #3C4E5B, #787C86);
+    color: white;
+  }
+ a{
+    text-decoration: none;
+    color: white;
+  }
+.verDominio{
+    width: 20%;
+    height: 65%;
+    top: 50%;
+    bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+  .botonañadir input[type=button] {
+    background-color: #787C86;
+    border: none;
+    color: white;
+    padding: 13px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+ .verDominio button {
+   
+    border: none;
+    color: white;
+    padding: 13px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+.botonañadir input[type=submit] {
+    background-color: #787C86;
+    border: none;
+    color: white;
+    padding: 13px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .eliminar-dominio input[type=submit] {
+   background-color: #c1121f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 4px 2px;
+  }
+    .descargar-dominio input[type=submit] {
+    background-color: #0089ff9c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 4px 2px;
+  }
+  .dominios{
+    overflow-y: scroll;
+    height: 50%;
+    width: 100%;
+    padding-top:  10px;
+    background-color: #354757;
+    border-radius: 10px;
+    place-items: center;
+  }
+  .dominio{
+    position: relative;
+    display: flex;
+    align-items: center;
+   background-color: #787C86;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 98%;
+    border-radius: 8px;
+  }
+  .nombre-dominio{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .descargar-dominio{
+    position: absolute;
+    width: 20%;
+    height: 85%;
+    right: 18%;
+    top: 50%;
+    bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+  }
+  .eliminar-dominio{
+    position: absolute;
+    width: 13.5%;
+    height: 85%;
+    right: 5%;
+    top: 50%;
+    bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+  }
+  .cerrar-sesion{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    height: 5%;
+    bottom: 7%;
+    color: red;
+    right: 36%;
+    padding-bottom: 50px;
+  }
+  .panel-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 80%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #E36414;
+  }
+  
+  .panel-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .panel-box .user-box {
+    position: relative;
+  }
+  
+  .panel-box .user-box input:hover {
+    background: #E36414;
+    color: #FBFBF9;
+}
+
+.panel-box .user-box input::placeholder {
+    color:white;
+  }
+  .panel-box .user-box input {
+     width: 60%;
+    height: 10px;
+    background: #787C86;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  .panel-box form a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px
+  }
+
+  .panel-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+
+  
+  .descargar-dominio form a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px
+  }
+  
+  button{
+    background-color: #787C86;
+    border: none;
+    color: white;
+    padding: 13px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  }
+ 
+
+::-webkit-scrollbar {
+    height: 5px;
+  }
+ 
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+ 
+
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 3px;
+  }
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: orange;
+  }
